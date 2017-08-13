@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="assets/css/game.css">
+
+<div class="container">
+	<div id="paper" class="tetris">
+		<div class="tetris-game-container">
+			<div class="button" id="game-over">
+				<h1>Your Score : <span></span></h1>
+				<a href="#" id="restart" data-play='1' class="btn bg-red">Play</a>
+			</div>
+			<canvas width="300" height="600"></canvas>
+		</div>
+		<div class="leader">
+			<h2>Leader Board</h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>No</th>
+						<th>Name</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="res in result">
+						<td>{{$index+1}}</td>
+						<td>{{res.name}}</td>
+						<td>{{res.score}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>

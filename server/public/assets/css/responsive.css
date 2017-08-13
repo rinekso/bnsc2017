@@ -1,0 +1,325 @@
+@media screen and (max-width:786px){
+	/*Menu*/
+	.menu{
+		margin-top: 10px;
+	}
+	/*logo*/
+	.logo img{
+		width: 45px;
+	}
+	.logo span{
+		font-size: 14px;
+	}
+	/*head2*/
+	.head-2{
+		width: 35px;
+	}
+	.head-2 ul.active{
+		margin: 0;
+	}
+	.head-2 ul li a{
+		width: 35px;
+		height: 35px;
+	}
+	.head-2 ul li span{
+		font-size: 16px;
+		margin-left: 50px;
+		margin-top: -35px;
+	}
+	.head-2 ul li .icon{
+		margin-top: 8px;
+		width: 20px;
+	}
+	/*right menu*/
+	.user{
+		font-size: 14px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.user .icon{
+		width: 20px;
+	}
+	.search{
+		padding: 5px 15px 5px 15px;
+	}
+	.search .icon{
+		margin-left: -10px;
+	}
+	.search-contain form{
+		padding: 13px;
+		margin-top: -5px;
+	}
+	.search-contain form input[type="text"]{
+		padding: 5px 0px 5px 20px;
+		font-size: 14px;
+	}
+	.search-contain form button[type='submit']{
+		width: 26px;
+		height: 26px;
+	}
+	.search-contain form button[type='submit'] img{
+		width: 20px;
+		margin-left: -10px;
+	}
+	/*decor*/
+	.decor a{
+		font-size: 16px;
+		line-height: 18px;
+		width: 100px;
+	}
+	.decor a small{
+		font-size: 12px;
+	}
+	/*Gallery*/
+	#gallery{
+		width: 90%;
+		height: auto;
+		margin: auto;
+		margin-top: -50px;
+	}
+	.gallery{
+		position: static;
+		box-sizing: border-box;
+		margin: 5px 1%;
+		padding: 0;
+		float: left;
+		height: auto;
+		overflow: hidden;
+	}
+	.gallery a{
+		width: auto;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+	.gallery h3{
+		width: 43%;
+		font-size: 16px;
+		padding: 5px 2.5%;
+	}
+	.gallery-1,.gallery-4,.gallery-5{
+		width: 48% !important;
+		height: 30vw !important;
+	}
+	.gallery-1 img,.gallery-4 img,.gallery-5 img, .gallery-1 video,.gallery-4 video,.gallery-5 video{
+		height: 100%;
+		width: auto;
+	}
+	.gallery-2,.gallery-3,.gallery-6,.gallery-7{
+		width: 23% !important;
+	}
+	.gallery-4{
+		float: right;
+	}
+	/*games*/
+	#games{
+		margin-top: 600px;
+	}
+	#games h1{
+		font-size: 24px;
+	}
+	#games .arrow{
+		width: 30px;
+	}
+	#games .space{
+		height: 50px;
+	}
+	#games h2{
+		font-size: 20px;
+		position: relative;
+		z-index: 2;
+	}
+	/*Endless preview*/
+	#endless{
+		background: none;
+	}
+	#endless .background{
+		height: 100vw;
+		width: auto;
+		transform: rotateZ(90deg);
+		position: relative;
+		z-index: 0;
+		top: 0;
+		left: 0;
+	}
+	#endless.active .background{
+		position: relative;
+	}
+	#dragon.run-mode{
+		transform: rotateZ(90deg);
+		left: 30vw;
+		top: 50px;
+	}
+	#endless.active .decor, #tetris-game.active .decor{
+		right: inherit;
+		left: 40%;
+		bottom: 20px;
+		top: inherit;
+	}
+	#endless.active .text{
+		position: relative;
+		top: 0;
+		z-index: 4;
+	}
+	#endless .text{
+		font-size: 14px;
+	}
+	#endless .text b{
+		font-size: 16px;
+	}
+	#endless .text-1,#endless .text-3{
+		left: 5%;
+		float: left;
+		bottom: 0;
+	}
+	#endless.active .text-1,#endless.active .text-3{
+		left: 5%;
+		float: left;
+		bottom: 0;
+	}
+	#endless.active .text-2{
+		right: 5%;
+		float: right;
+		bottom: 0;
+	}
+	/*Tetris preview*/
+	#tetris-game.active .text b{
+		font-size: 18px;
+	}
+	/*footer*/
+	footer .col-2{
+		width: 100%;
+	}	
+}
+@media screen and (max-width: 320px){
+	/*Head*/
+	.head-1{
+		width: 90vw;
+	}
+	.logo img{
+		width: 40px;
+	}
+	.logo span{
+		font-size: 10px;
+	}
+	.logo.col-2{
+		width: auto !important;
+	}
+	.user-contain{
+		display: none;
+	}
+	.right.col-2{
+		float: right;
+		width: auto !important;
+	}
+	.head-2{
+		margin-top: -20px;
+	}
+	.mobile{
+		display: block !important;
+	}
+	.head-2 ul li span{
+		margin-top: -20px;
+	}
+	/*banner*/
+	.banner{
+		height: 300px;
+		width: auto;
+	}
+	#banner{
+		height: 300px;
+		overflow: hidden;
+	}
+	#banner .decor{
+		display: none;
+	}
+	/*gellery*/
+	#gallery{
+		margin-top: -20px;
+	}
+	.gallery h3{
+		width: 95%;
+		font-size: 14px;
+	}
+	.gallery-1.big{
+		width: 100% !important;
+		height: auto !important;
+	}
+	.big video, .big img{
+		width: 100%;
+		height: auto;
+	}
+	.gallery-2,.gallery-3,.gallery-4,.gallery-5,.gallery-6,.gallery-7{
+		width: 48% !important;
+	}
+	/*endless*/
+	#endless{}
+	#endless .text{
+		float: inherit;
+		margin: auto;
+		width: 60vw !important;
+	}
+	/*tetris game*/
+	#tetris-game h2{
+		position: relative !important;
+	}
+	#tetris-game.active{
+		height: 100vh!important;
+	}
+	#tetris-game.active .text-1{
+		top: 20%;
+	}
+	#tetris-game.active .text-2{
+		top: 40%;
+	}
+	#tetris-game.active .text-3{
+		top: 60%;
+	}
+	#tetris-game.active .text{
+		width: 50% !important;
+		float: right !important;
+		left: 0 !important;
+	}
+	/*register*/
+	.container{
+		padding-top: 50px;
+	}
+	.part.login, .part.register{
+		position: relative;
+	}
+	.part.login, .part.login.active, .part.register, .part.register.active{
+		top: 0;
+		margin-left: 0;
+		right: 0;
+		left: inherit;
+		float: right;
+	}
+	.part h2{
+		font-size: 20px;
+	}
+	.part .btn{
+		width: 100%;
+	}
+	.part{
+		width: 80%;
+	}
+	.part .notif span{
+		font-size: 14px;
+	}
+	.notif .circle{
+		width: 30px;
+		height: 30px;
+		margin-top: -5px;
+	}
+	.notif .circle img{
+		width: 15px;
+		margin: 8px 0 0 8px;
+	}
+	.part input{
+		font-size: 16px;
+		margin: 5px 0;
+	}
+	.part form .col-1, .part form .col-2{
+		padding: 0px 5px;
+	}
+}
